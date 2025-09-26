@@ -1,44 +1,79 @@
-# vCard - Personal portfolio
+# Tiago Paquete - Professional Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+![GitHub repo size](https://img.shields.io/github/repo-size/Raphaelavazq/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/Raphaelavazq/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Raphaelavazq/vcard-personal-portfolio?style=social)
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+🌍 **[View Live Portfolio →](https://raphaelavazq.github.io/vcard-personal-portfolio/)**
 
-## Demo
+A modern, fully responsive bilingual portfolio website showcasing professional software development skills and projects. Built with clean HTML5, CSS3, and JavaScript, featuring German and English language support for international opportunities.
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## ✨ Features
 
-## Prerequisites
+- **🌐 Bilingual Support**: Seamless switching between German and English
+- **📱 Mobile-First Design**: WCAG-compliant responsive design with accessibility standards
+- **📧 Working Contact Form**: Integrated with Formspree for direct communication
+- **🎯 Professional Branding**: Custom "T" logo favicon and cohesive visual identity
+- **🚀 Fast Loading**: Optimized performance and clean code architecture
+- **📊 Real Projects**: Showcase of actual development work and GitHub repositories
 
-Before you begin, ensure you have met the following requirements:
+## 🛠️ Technology Stack
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- **Frontend**: HTML5, CSS3 (Grid & Flexbox), Vanilla JavaScript
+- **Icons**: Ionicons for consistent iconography
+- **Contact**: Formspree integration for form handling
+- **Deployment**: GitHub Pages with custom domain support
+- **Accessibility**: WCAG 2.1 AA compliant touch targets and navigation
 
-## Installing vCard
+## 📱 Preview
 
-To install **vCard**, follow these steps:
+![Desktop Preview](./website-demo-image/desktop.png "Professional Desktop View")
+![Mobile Preview](./website-demo-image/mobile.png "Optimized Mobile Experience")
 
-Linux and macOS:
+## 🌟 Sections
+
+- **About**: Professional introduction and career objectives
+- **Resume**: Education, experience, and technical skills
+- **Portfolio**: Featured development projects with GitHub links
+- **Blog**: Technical insights and professional development
+- **Contact**: Multiple communication channels with working form
+
+## 🚀 Quick Start
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+# Clone the repository
+git clone https://github.com/Raphaelavazq/vcard-personal-portfolio.git
+
+# Navigate to project directory
+cd vcard-personal-portfolio
+
+# Open in your browser
+open index.html
+
+# Or serve locally
+python3 -m http.server 8080
 ```
 
-Windows:
+## 💼 Professional Use
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+This portfolio is specifically designed for:
+- **Internship Applications**: 6-month practicum opportunities
+- **Software Development Roles**: Full-stack and frontend positions
+- **International Opportunities**: Bilingual support for German-speaking markets
+- **Professional Networking**: LinkedIn and GitHub integration
 
-## Contact
+## 📞 Contact
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+**Tiago Paquete**
+- 🌐 Portfolio: [raphaelavazq.github.io/vcard-personal-portfolio](https://raphaelavazq.github.io/vcard-personal-portfolio/)
+- 💼 LinkedIn: [Tiago Paquete](https://linkedin.com/in/tiago-paquete)
+- 🔧 GitHub: [@Raphaelavazq](https://github.com/Raphaelavazq)
+- 📧 Email: tiagopaquete15@gmail.com
 
-## License
+## 📄 License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Built with ❤️ for professional opportunities in software development*
