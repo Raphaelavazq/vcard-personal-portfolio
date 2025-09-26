@@ -534,9 +534,13 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
-  padding: 20px 7px;
+  font-size: var(--fs-7);
+  padding: 22px 12px;
   transition: color var(--transition-1);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar-link:hover,
@@ -1518,11 +1522,14 @@ textarea.form-input::-webkit-resizer {
   }
 
   .navbar-list {
-    gap: 20px;
+    gap: 25px;
+    padding: 0 15px;
   }
 
   .navbar-link {
-    --fs-8: 14px;
+    --fs-7: 16px;
+    padding: 25px 15px;
+    min-height: 48px;
   }
 
   /**
@@ -2183,12 +2190,13 @@ textarea.form-input::-webkit-resizer {
   }
 
   .navbar-list {
-    padding: 0 5px;
+    padding: 0 10px;
   }
 
   .navbar-item .navbar-link {
-    font-size: var(--fs-8);
-    padding: 8px 10px;
+    font-size: 14px;
+    padding: 18px 15px;
+    min-height: 48px;
   }
 }
 
@@ -2301,7 +2309,7 @@ textarea.form-input::-webkit-resizer {
     flex-direction: row;
     justify-content: space-between;
   }
-
+  
   .contact-method {
     flex: 1;
     justify-content: center;
@@ -2335,4 +2343,45 @@ textarea.form-input::-webkit-resizer {
   color: var(--light-gray);
   font-size: var(--fs-6);
   line-height: 1.6;
+}
+
+/*-----------------------------------*\
+  #MOBILE OPTIMIZATION IMPROVEMENTS
+\*-----------------------------------*/
+
+/* Improve touch targets for all interactive elements on mobile */
+@media (max-width: 580px) {
+  /* Ensure all buttons have proper touch targets */
+  button, .btn, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Improve service cards touch area */
+  .service-item {
+    padding: 20px 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Better spacing for contact links */
+  .contact-link {
+    padding: 8px 4px;
+  }
+  
+  /* Improve form inputs on mobile */
+  .form-input {
+    padding: 15px 20px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  /* Better navbar positioning */
+  .navbar {
+    border-radius: 15px 15px 0 0;
+    padding: 5px 0;
+  }
+  
+  /* Ensure main content has proper bottom spacing */
+  main {
+    margin-bottom: 70px;
+  }
 }
