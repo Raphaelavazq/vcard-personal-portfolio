@@ -18,10 +18,6 @@ const languageData = {
         },
         showContacts: "Show Contacts",
         contacts: {
-          email: {
-            title: "Email",
-            value: "tiagopaquete@outlook.pt",
-          },
           birthday: {
             title: "Birthday",
             value: "May 15, 1985",
@@ -155,7 +151,6 @@ const languageData = {
         formDescription:
           "I'm always open to discussing new opportunities, collaborations, or just connecting with fellow professionals. Feel free to reach out!",
         namePlaceholder: "Full name",
-        emailPlaceholder: "Email address",
         messagePlaceholder: "Your Message",
         sendButton: "Send Message",
         directTitle: "Direct Contact",
@@ -177,10 +172,6 @@ const languageData = {
         },
         showContacts: "Kontakte anzeigen",
         contacts: {
-          email: {
-            title: "E-Mail",
-            value: "tiagopaquete@outlook.pt",
-          },
           birthday: {
             title: "Geburtstag",
             value: "15. Mai 1985",
@@ -314,7 +305,6 @@ const languageData = {
         formDescription:
           "Ich bin immer offen für Gespräche über neue Möglichkeiten, Zusammenarbeit oder einfach nur Networking. Zögern Sie nicht, mich zu kontaktieren!",
         namePlaceholder: "Vollständiger Name",
-        emailPlaceholder: "E-Mail-Adresse",
         messagePlaceholder: "Ihre Nachricht",
         sendButton: "Nachricht senden",
         directTitle: "Direktkontakt",

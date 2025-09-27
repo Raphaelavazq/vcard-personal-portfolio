@@ -132,13 +132,6 @@ if (form && formBtn) {
       form.getAttribute("action") &&
       form.getAttribute("action").includes("formspree.io")
     ) {
-      // Set the reply-to email dynamically
-      const emailInput = form.querySelector('input[name="email"]');
-      const replyToInput = form.querySelector('input[name="_replyto"]');
-      if (emailInput && replyToInput) {
-        replyToInput.value = emailInput.value;
-      }
-
       // Update button state
       formBtn.innerHTML =
         '<ion-icon name="hourglass-outline"></ion-icon><span>Sending...</span>';
@@ -148,32 +141,10 @@ if (form && formBtn) {
       return true;
     }
 
-    // Fallback to mailto if no form service is configured
+    // Fallback - show message that contact form needs email
     e.preventDefault();
-
-    const formData = new FormData(form);
-    const fullname = formData.get("fullname");
-    const email = formData.get("email");
-    const message = formData.get("message");
-
-    // Create mailto link with form data
-    const subject = encodeURIComponent(`Portfolio Contact from ${fullname}`);
-    const body = encodeURIComponent(
-      `Hello Tiago,\n\nI'm reaching out through your portfolio website.\n\n` +
-        `Name: ${fullname}\n` +
-        `Email: ${email}\n\n` +
-        `Message:\n${message}\n\n` +
-        `Best regards,\n${fullname}`
-    );
-
-    const mailtoLink = `mailto:tiagopaquete@outlook.pt?subject=${subject}&body=${body}`;
-
-    // Open email client
-    window.location.href = mailtoLink;
-
-    // Show user feedback
     formBtn.innerHTML =
-      '<ion-icon name="checkmark-outline"></ion-icon><span>Email client opened!</span>';
+      '<ion-icon name="information-outline"></ion-icon><span>Please use LinkedIn or GitHub to contact</span>';
     setTimeout(() => {
       formBtn.innerHTML =
         '<ion-icon name="paper-plane"></ion-icon><span data-lang="contact-send-button">Send Message</span>';

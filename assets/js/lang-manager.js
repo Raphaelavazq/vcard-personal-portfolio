@@ -112,14 +112,6 @@ class LanguageManager {
 
     // Update contact information
     this.updateElement(
-      '[data-lang="contact-email-title"]',
-      content.sidebar.contacts.email.title
-    );
-    this.updateElement(
-      '[data-lang="contact-email-value"]',
-      content.sidebar.contacts.email.value
-    );
-    this.updateElement(
       '[data-lang="contact-birthday-title"]',
       content.sidebar.contacts.birthday.title
     );
@@ -261,15 +253,11 @@ class LanguageManager {
     const nameInput = document.querySelector(
       '[data-lang-placeholder="contact-name-placeholder"]'
     );
-    const emailInput = document.querySelector(
-      '[data-lang-placeholder="contact-email-placeholder"]'
-    );
     const messageInput = document.querySelector(
       '[data-lang-placeholder="contact-message-placeholder"]'
     );
 
     if (nameInput) nameInput.placeholder = content.contact.namePlaceholder;
-    if (emailInput) emailInput.placeholder = content.contact.emailPlaceholder;
     if (messageInput)
       messageInput.placeholder = content.contact.messagePlaceholder;
   }
