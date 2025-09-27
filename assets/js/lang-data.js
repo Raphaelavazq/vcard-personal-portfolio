@@ -22,10 +22,6 @@ const languageData = {
             title: "Email",
             value: "tiagopaquete@outlook.pt",
           },
-          phone: {
-            title: "Phone",
-            value: "+49 1520 3737984",
-          },
           birthday: {
             title: "Birthday",
             value: "May 15, 1985",
@@ -184,10 +180,6 @@ const languageData = {
           email: {
             title: "E-Mail",
             value: "tiagopaquete@outlook.pt",
-          },
-          phone: {
-            title: "Telefon",
-            value: "+49 1520 3737984",
           },
           birthday: {
             title: "Geburtstag",

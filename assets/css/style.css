@@ -2309,7 +2309,7 @@ textarea.form-input::-webkit-resizer {
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .contact-method {
     flex: 1;
     justify-content: center;
@@ -2352,34 +2352,36 @@ textarea.form-input::-webkit-resizer {
 /* Improve touch targets for all interactive elements on mobile */
 @media (max-width: 580px) {
   /* Ensure all buttons have proper touch targets */
-  button, .btn, a {
+  button,
+  .btn,
+  a {
     min-height: 44px;
     min-width: 44px;
   }
-  
+
   /* Improve service cards touch area */
   .service-item {
     padding: 20px 15px;
     margin-bottom: 15px;
   }
-  
+
   /* Better spacing for contact links */
   .contact-link {
     padding: 8px 4px;
   }
-  
+
   /* Improve form inputs on mobile */
   .form-input {
     padding: 15px 20px;
     font-size: 16px; /* Prevents zoom on iOS */
   }
-  
+
   /* Better navbar positioning */
   .navbar {
     border-radius: 15px 15px 0 0;
     padding: 5px 0;
   }
-  
+
   /* Ensure main content has proper bottom spacing */
   main {
     margin-bottom: 70px;

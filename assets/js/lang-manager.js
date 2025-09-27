@@ -120,14 +120,6 @@ class LanguageManager {
       content.sidebar.contacts.email.value
     );
     this.updateElement(
-      '[data-lang="contact-phone-title"]',
-      content.sidebar.contacts.phone.title
-    );
-    this.updateElement(
-      '[data-lang="contact-phone-value"]',
-      content.sidebar.contacts.phone.value
-    );
-    this.updateElement(
       '[data-lang="contact-birthday-title"]',
       content.sidebar.contacts.birthday.title
     );
@@ -285,14 +277,7 @@ class LanguageManager {
   updateElement(selector, content) {
     const element = document.querySelector(selector);
     if (element) {
-      // Check if element is an anchor and needs href updates
-      if (element.tagName === "A" && selector.includes("value")) {
-        if (selector.includes("email")) {
-          element.href = `mailto:${content}`;
-        } else if (selector.includes("phone")) {
-          element.href = `tel:${content.replace(/\D/g, "")}`;
-        }
-      }
+            // Check if element is an anchor and needs href updates\n      if (element.tagName === \"A\" && selector.includes(\"value\")) {\n        if (selector.includes(\"email\")) {\n          element.href = `mailto:${content}`;\n        }\n      }
       // Use innerHTML for title to allow HTML tags like <br>
       if (selector.includes("title") && content.includes("<br>")) {
         element.innerHTML = content;

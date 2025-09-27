@@ -57,6 +57,7 @@ python3 -m http.server 8080
 ## 💼 Professional Use
 
 This portfolio is specifically designed for:
+
 - **Internship Applications**: 6-month practicum opportunities
 - **Software Development Roles**: Full-stack and frontend positions
 - **International Opportunities**: Bilingual support for German-speaking markets
@@ -65,6 +66,7 @@ This portfolio is specifically designed for:
 ## 📞 Contact
 
 **Tiago Paquete**
+
 - 🌐 Portfolio: [raphaelavazq.github.io/vcard-personal-portfolio](https://raphaelavazq.github.io/vcard-personal-portfolio/)
 - 💼 LinkedIn: [Tiago Paquete](https://linkedin.com/in/tiago-paquete)
 - 🔧 GitHub: [@Raphaelavazq](https://github.com/Raphaelavazq)
@@ -76,4 +78,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Built with ❤️ for professional opportunities in software development*
+_Built with ❤️ for professional opportunities in software development_
